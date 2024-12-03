@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (carlike_bot_simulation) JobQueued: {'identifier': 'carlike_bot_simulation', 'dependencies': OrderedDict()}
+[0.001492] (carlike_bot_simulation) JobStarted: {'identifier': 'carlike_bot_simulation'}
+[0.099973] (-) TimerEvent: {}
+[0.151788] (carlike_bot_simulation) JobProgress: {'identifier': 'carlike_bot_simulation', 'progress': 'cmake'}
+[0.171263] (carlike_bot_simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/dhruva/trial/src/carlike_bot_simulation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dhruva/trial/install/carlike_bot_simulation'], 'cwd': '/home/dhruva/trial/build/carlike_bot_simulation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'dhruva'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dhruva'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1253'), ('SYSTEMD_EXEC_PID', '1414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4408'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dhruva/trial/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dhruva'), ('JOURNAL_STREAM', '8:8987'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dhruva'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1381,unix/ubuntu22:/tmp/.ICE-unix/1381'), ('INVOCATION_ID', 'fd91a97362ac4dfb8a960299f177500c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BH6TX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dhruva/trial/install/carlike_bot_simulation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b9090b02-be39-4da0-a9fb-1a0a454f3da8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dhruva/trial/build/carlike_bot_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dhruva/trial/install/carlike_bot_simulation:/opt/ros/humble')]), 'shell': False}
+[0.206082] (-) TimerEvent: {}
+[0.320947] (-) TimerEvent: {}
+[0.421482] (-) TimerEvent: {}
+[0.522408] (-) TimerEvent: {}
+[0.624198] (-) TimerEvent: {}
+[0.724990] (-) TimerEvent: {}
+[0.825875] (-) TimerEvent: {}
+[0.926364] (-) TimerEvent: {}
+[0.927913] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.026606] (-) TimerEvent: {}
+[1.137695] (-) TimerEvent: {}
+[1.238477] (-) TimerEvent: {}
+[1.339442] (-) TimerEvent: {}
+[1.441097] (-) TimerEvent: {}
+[1.542524] (-) TimerEvent: {}
+[1.579024] (carlike_bot_simulation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.642985] (-) TimerEvent: {}
+[1.744378] (-) TimerEvent: {}
+[1.754579] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.770132] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.845064] (-) TimerEvent: {}
+[1.947025] (-) TimerEvent: {}
+[2.030916] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.047401] (-) TimerEvent: {}
+[2.059852] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.099694] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.147908] (-) TimerEvent: {}
+[2.152948] (carlike_bot_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.208576] (carlike_bot_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.249238] (-) TimerEvent: {}
+[2.350482] (-) TimerEvent: {}
+[2.450966] (-) TimerEvent: {}
+[2.477619] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.552423] (-) TimerEvent: {}
+[2.653415] (-) TimerEvent: {}
+[2.741606] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.752505] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.754026] (-) TimerEvent: {}
+[2.854870] (-) TimerEvent: {}
+[2.955662] (-) TimerEvent: {}
+[3.056218] (-) TimerEvent: {}
+[3.152012] (carlike_bot_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.156526] (-) TimerEvent: {}
+[3.263206] (-) TimerEvent: {}
+[3.364411] (-) TimerEvent: {}
+[3.464885] (-) TimerEvent: {}
+[3.566063] (-) TimerEvent: {}
+[3.667241] (-) TimerEvent: {}
+[3.776692] (-) TimerEvent: {}
+[3.890990] (-) TimerEvent: {}
+[3.900316] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.991064] (-) TimerEvent: {}
+[4.092874] (-) TimerEvent: {}
+[4.194063] (-) TimerEvent: {}
+[4.294700] (-) TimerEvent: {}
+[4.392349] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[4.395617] (-) TimerEvent: {}
+[4.446441] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.496327] (-) TimerEvent: {}
+[4.529271] (carlike_bot_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[4.539627] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[4.598077] (-) TimerEvent: {}
+[4.613606] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[4.635821] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[4.666043] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[4.666627] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[4.667244] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[4.667660] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[4.667875] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[4.668167] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[4.669650] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[4.669806] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[4.669897] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[4.669977] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[4.670061] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[4.670139] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[4.698722] (-) TimerEvent: {}
+[4.800216] (-) TimerEvent: {}
+[4.901322] (-) TimerEvent: {}
+[4.944373] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.954233] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[4.955143] (carlike_bot_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[4.975981] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[4.993432] (carlike_bot_simulation) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[5.003430] (-) TimerEvent: {}
+[5.003765] (carlike_bot_simulation) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[5.104676] (-) TimerEvent: {}
+[5.159583] (carlike_bot_simulation) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[5.205256] (-) TimerEvent: {}
+[5.256561] (carlike_bot_simulation) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[5.297010] (carlike_bot_simulation) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[5.306621] (-) TimerEvent: {}
+[5.388696] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[5.390972] (carlike_bot_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[5.406878] (-) TimerEvent: {}
+[5.422198] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.430862] (carlike_bot_simulation) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[5.476223] (carlike_bot_simulation) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[5.507359] (-) TimerEvent: {}
+[5.561556] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[5.587153] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[5.589708] (carlike_bot_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[5.591313] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[5.591775] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[5.608463] (-) TimerEvent: {}
+[5.633627] (carlike_bot_simulation) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[5.669267] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[5.671006] (carlike_bot_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[5.672601] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.694225] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[5.695842] (carlike_bot_simulation) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[5.708873] (-) TimerEvent: {}
+[5.809846] (-) TimerEvent: {}
+[5.813878] (carlike_bot_simulation) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[5.855897] (carlike_bot_simulation) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[5.910041] (-) TimerEvent: {}
+[5.938910] (carlike_bot_simulation) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[5.977120] (carlike_bot_simulation) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[6.010479] (-) TimerEvent: {}
+[6.043669] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[6.044303] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.044959] (carlike_bot_simulation) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.083670] (carlike_bot_simulation) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[6.109103] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[6.110931] (-) TimerEvent: {}
+[6.174800] (carlike_bot_simulation) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.183593] (carlike_bot_simulation) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.211345] (-) TimerEvent: {}
+[6.312210] (-) TimerEvent: {}
+[6.413420] (-) TimerEvent: {}
+[6.514796] (-) TimerEvent: {}
+[6.615813] (-) TimerEvent: {}
+[6.717125] (-) TimerEvent: {}
+[6.818622] (-) TimerEvent: {}
+[6.920386] (-) TimerEvent: {}
+[7.021115] (-) TimerEvent: {}
+[7.100970] (carlike_bot_simulation) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.122408] (-) TimerEvent: {}
+[7.211815] (carlike_bot_simulation) StdoutLine: {'line': b'-- Generating done\n'}
+[7.222534] (-) TimerEvent: {}
+[7.223566] (carlike_bot_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/dhruva/trial/build/carlike_bot_simulation\n'}
+[7.270124] (carlike_bot_simulation) CommandEnded: {'returncode': 0}
+[7.279285] (carlike_bot_simulation) JobProgress: {'identifier': 'carlike_bot_simulation', 'progress': 'build'}
+[7.279608] (carlike_bot_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dhruva/trial/build/carlike_bot_simulation', '--', '-j4', '-l4'], 'cwd': '/home/dhruva/trial/build/carlike_bot_simulation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'dhruva'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dhruva'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1253'), ('SYSTEMD_EXEC_PID', '1414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4408'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dhruva/trial/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dhruva'), ('JOURNAL_STREAM', '8:8987'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dhruva'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1381,unix/ubuntu22:/tmp/.ICE-unix/1381'), ('INVOCATION_ID', 'fd91a97362ac4dfb8a960299f177500c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BH6TX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dhruva/trial/install/carlike_bot_simulation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b9090b02-be39-4da0-a9fb-1a0a454f3da8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dhruva/trial/build/carlike_bot_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dhruva/trial/install/carlike_bot_simulation:/opt/ros/humble')]), 'shell': False}
+[7.322871] (-) TimerEvent: {}
+[7.400343] (carlike_bot_simulation) CommandEnded: {'returncode': 0}
+[7.423306] (-) TimerEvent: {}
+[7.437473] (carlike_bot_simulation) JobProgress: {'identifier': 'carlike_bot_simulation', 'progress': 'install'}
+[7.448086] (carlike_bot_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dhruva/trial/build/carlike_bot_simulation'], 'cwd': '/home/dhruva/trial/build/carlike_bot_simulation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'dhruva'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dhruva'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1253'), ('SYSTEMD_EXEC_PID', '1414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4408'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dhruva/trial/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dhruva'), ('JOURNAL_STREAM', '8:8987'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dhruva'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1381,unix/ubuntu22:/tmp/.ICE-unix/1381'), ('INVOCATION_ID', 'fd91a97362ac4dfb8a960299f177500c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BH6TX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dhruva/trial/install/carlike_bot_simulation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b9090b02-be39-4da0-a9fb-1a0a454f3da8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dhruva/trial/build/carlike_bot_simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dhruva/trial/install/carlike_bot_simulation:/opt/ros/humble')]), 'shell': False}
+[7.459386] (carlike_bot_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.459961] (carlike_bot_simulation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.473783] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/lib/carlike_bot_simulation/camera_subscriber.py\n'}
+[7.499067] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/camera.launch.py\n'}
+[7.523512] (-) TimerEvent: {}
+[7.536089] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/joystick.launch.py\n'}
+[7.552501] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/launch.py\n'}
+[7.574218] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/launch_new.py\n'}
+[7.584640] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/launch_sim.launch.py\n'}
+[7.615309] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/rsp.launch.py\n'}
+[7.623803] (-) TimerEvent: {}
+[7.653232] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/camera.xacro\n'}
+[7.655866] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/carlike_bot.urdf.xacro\n'}
+[7.682021] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/carlikebot.materials.xacro\n'}
+[7.698968] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/carlikebot_description.urdf.xacro\n'}
+[7.724522] (-) TimerEvent: {}
+[7.725188] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/dada_bot.urdf.xacro\n'}
+[7.751782] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/gazebo_control.xacro\n'}
+[7.753204] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/inertial_macros.xacro\n'}
+[7.772488] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/robot.urdf.xacro\n'}
+[7.773211] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/package_run_dependencies/carlike_bot_simulation\n'}
+[7.775859] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/parent_prefix_path/carlike_bot_simulation\n'}
+[7.778213] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/ament_prefix_path.sh\n'}
+[7.779661] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/ament_prefix_path.dsv\n'}
+[7.782474] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/path.sh\n'}
+[7.784017] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/path.dsv\n'}
+[7.786205] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.bash\n'}
+[7.788016] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.sh\n'}
+[7.789469] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.zsh\n'}
+[7.790885] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.dsv\n'}
+[7.791511] (carlike_bot_simulation) StdoutLine: {'line': b'-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/package.dsv\n'}
+[7.815239] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/packages/carlike_bot_simulation\n'}
+[7.816802] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/cmake/carlike_bot_simulationConfig.cmake\n'}
+[7.818164] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/cmake/carlike_bot_simulationConfig-version.cmake\n'}
+[7.818561] (carlike_bot_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/package.xml\n'}
+[7.822030] (carlike_bot_simulation) CommandEnded: {'returncode': 0}
+[7.825350] (-) TimerEvent: {}
+[7.926690] (-) TimerEvent: {}
+[8.030131] (-) TimerEvent: {}
+[8.083111] (carlike_bot_simulation) JobEnded: {'identifier': 'carlike_bot_simulation', 'rc': 0}
+[8.085617] (-) EventReactorShutdown: {}

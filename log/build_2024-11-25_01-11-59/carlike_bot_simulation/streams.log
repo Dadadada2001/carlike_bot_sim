@@ -1,0 +1,24 @@
+[0.126s] Invoking command in '/home/dhruva/trial/build/carlike_bot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhruva/ros2_ws/install/serp_rl:/opt/ros/humble /usr/bin/cmake --build /home/dhruva/trial/build/carlike_bot_simulation -- -j4 -l4
+[0.599s] Invoked command in '/home/dhruva/trial/build/carlike_bot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhruva/ros2_ws/install/serp_rl:/opt/ros/humble /usr/bin/cmake --build /home/dhruva/trial/build/carlike_bot_simulation -- -j4 -l4
+[0.651s] Invoking command in '/home/dhruva/trial/build/carlike_bot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhruva/ros2_ws/install/serp_rl:/opt/ros/humble /usr/bin/cmake --install /home/dhruva/trial/build/carlike_bot_simulation
+[0.676s] -- Install configuration: ""
+[0.679s] -- Execute custom install script
+[0.679s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/lib/carlike_bot_simulation/camera_subscriber.py
+[0.681s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/launch.py
+[0.681s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/carlike_bot.urdf.xacro
+[0.681s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/package_run_dependencies/carlike_bot_simulation
+[0.681s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/parent_prefix_path/carlike_bot_simulation
+[0.681s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/ament_prefix_path.sh
+[0.681s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/ament_prefix_path.dsv
+[0.681s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/path.sh
+[0.682s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/path.dsv
+[0.682s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.bash
+[0.682s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.sh
+[0.682s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.zsh
+[0.682s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.dsv
+[0.682s] -- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/package.dsv
+[0.694s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/packages/carlike_bot_simulation
+[0.694s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/cmake/carlike_bot_simulationConfig.cmake
+[0.695s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/cmake/carlike_bot_simulationConfig-version.cmake
+[0.695s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/package.xml
+[0.698s] Invoked command in '/home/dhruva/trial/build/carlike_bot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhruva/ros2_ws/install/serp_rl:/opt/ros/humble /usr/bin/cmake --install /home/dhruva/trial/build/carlike_bot_simulation

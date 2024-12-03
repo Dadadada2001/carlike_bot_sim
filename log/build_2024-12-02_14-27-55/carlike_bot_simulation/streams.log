@@ -1,0 +1,109 @@
+[0.118s] Invoking command in '/home/dhruva/trial/build/carlike_bot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dhruva/trial/src/carlike_bot_simulation -DCMAKE_INSTALL_PREFIX=/home/dhruva/trial/install/carlike_bot_simulation
+[0.725s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.254s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.437s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.485s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.808s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.834s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.880s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.954s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.279s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.587s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.605s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.079s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.789s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.138s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.186s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.243s] -- Searching for dependencies of ignition-math6
+[4.271s] -- Looking for OGRE...
+[4.324s] -- Found Ogre Ghadamon (1.9.0)
+[4.339s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.356s] -- Looking for OGRE_Paging...
+[4.356s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.356s] -- Looking for OGRE_Terrain...
+[4.356s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.358s] -- Looking for OGRE_Property...
+[4.358s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.358s] -- Looking for OGRE_RTShaderSystem...
+[4.358s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.358s] -- Looking for OGRE_Volume...
+[4.358s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.358s] -- Looking for OGRE_Overlay...
+[4.358s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.590s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.600s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.601s] -- Searching for dependencies of ignition-transport8
+[4.625s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.637s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.646s] -- Checking for module 'libzmq >= 4'
+[4.808s] --   Found libzmq , version 4.3.4
+[4.905s] -- Checking for module 'uuid'
+[4.929s] --   Found uuid, version 2.37.2
+[4.993s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.993s] -- Searching for dependencies of ignition-msgs5
+[5.017s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.031s] -- Checking for module 'tinyxml2'
+[5.066s] --   Found tinyxml2, version 9.0.0
+[5.134s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.152s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.152s] -- Searching for dependencies of ignition-common3
+[5.153s] -- Looking for dlfcn.h - found
+[5.153s] -- Looking for libdl - found
+[5.179s] -- Searching for <ignition-common3> component [graphics]
+[5.196s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.199s] -- Searching for dependencies of ignition-common3-graphics
+[5.199s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.216s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.218s] -- Searching for dependencies of ignition-fuel_tools4
+[5.336s] -- Checking for module 'jsoncpp'
+[5.358s] --   Found jsoncpp, version 1.9.5
+[5.424s] -- Checking for module 'libzip'
+[5.467s] --   Found libzip, version 1.7.3
+[5.521s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.522s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.523s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.570s] -- Gazebo version: 11.10
+[5.602s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[5.661s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.677s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.431s] -- Configuring done
+[6.524s] -- Generating done
+[6.528s] -- Build files have been written to: /home/dhruva/trial/build/carlike_bot_simulation
+[6.566s] Invoked command in '/home/dhruva/trial/build/carlike_bot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dhruva/trial/src/carlike_bot_simulation -DCMAKE_INSTALL_PREFIX=/home/dhruva/trial/install/carlike_bot_simulation
+[6.571s] Invoking command in '/home/dhruva/trial/build/carlike_bot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dhruva/trial/build/carlike_bot_simulation -- -j4 -l4
+[6.656s] Invoked command in '/home/dhruva/trial/build/carlike_bot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dhruva/trial/build/carlike_bot_simulation -- -j4 -l4
+[6.713s] Invoking command in '/home/dhruva/trial/build/carlike_bot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dhruva/trial/build/carlike_bot_simulation
+[6.726s] -- Install configuration: ""
+[6.727s] -- Execute custom install script
+[6.729s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/lib/carlike_bot_simulation/camera_subscriber.py
+[6.730s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/camera.launch.py
+[6.730s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/joystick.launch.py
+[6.730s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/launch.py
+[6.730s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/launch_new.py
+[6.731s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/launch_sim.launch.py
+[6.731s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/rsp.launch.py
+[6.731s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/camera.xacro
+[6.732s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/carlike_bot.urdf.xacro
+[6.732s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/carlikebot.materials.xacro
+[6.732s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/carlikebot_description.urdf.xacro
+[6.732s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/dada_bot.urdf.xacro
+[6.732s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/gazebo_control.xacro
+[6.732s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/inertial_macros.xacro
+[6.733s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/robot.urdf.xacro
+[6.733s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/package_run_dependencies/carlike_bot_simulation
+[6.736s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/parent_prefix_path/carlike_bot_simulation
+[6.736s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/ament_prefix_path.sh
+[6.736s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/ament_prefix_path.dsv
+[6.736s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/path.sh
+[6.737s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/path.dsv
+[6.737s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.bash
+[6.737s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.sh
+[6.738s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.zsh
+[6.738s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.dsv
+[6.738s] -- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/package.dsv
+[6.751s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/packages/carlike_bot_simulation
+[6.751s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/cmake/carlike_bot_simulationConfig.cmake
+[6.752s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/cmake/carlike_bot_simulationConfig-version.cmake
+[6.752s] -- Up-to-date symlink: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/package.xml
+[6.757s] Invoked command in '/home/dhruva/trial/build/carlike_bot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dhruva/trial/build/carlike_bot_simulation

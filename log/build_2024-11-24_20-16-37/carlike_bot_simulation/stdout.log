@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/lib/carlike_bot_simulation/camera_subscriber.py
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/launch/launch.py
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/urdf/carlike_bot.urdf.xacro
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/package_run_dependencies/carlike_bot_simulation
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/parent_prefix_path/carlike_bot_simulation
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/ament_prefix_path.sh
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/path.sh
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/environment/path.dsv
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.bash
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.sh
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.zsh
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/local_setup.dsv
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/package.dsv
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/ament_index/resource_index/packages/carlike_bot_simulation
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/cmake/carlike_bot_simulationConfig.cmake
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/cmake/carlike_bot_simulationConfig-version.cmake
+-- Symlinking: /home/dhruva/trial/install/carlike_bot_simulation/share/carlike_bot_simulation/package.xml
